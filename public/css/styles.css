@@ -133,6 +133,15 @@ button:disabled {
     color: #0070CC;
 }
 
+.message-content{
+    background-color: #0070cc;
+    color: #fff;
+    border-radius: 20px;
+    width: 30vw;
+    padding: 10px;
+    word-wrap: break-word;
+  }
+
 /* Message Composition Styles */
 
 .compose {
