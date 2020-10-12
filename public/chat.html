@@ -33,7 +33,18 @@
           <span class="message__name">{{username}}</span>
           <span class="message__meta">{{createdAt}}</span>
         </p>
-        <p class = "message-content">{{message}}</p>
+        <p class="message-content">{{message}}</p>
+      </div>
+    </script>
+
+    <script id="sender-message-template" type="text/html">
+      <div class="sender-message">
+        <p class="sender-message-header">
+          <span></span>
+          <span class="message__name">{{username}}</span>
+          <span class="message__meta">{{createdAt}}</span>
+        </p>
+        <p class="sender-message-content">{{message}}</p>
       </div>
     </script>
 
@@ -43,7 +54,22 @@
           <span class="message__name">{{username}}</span>
           <span class="message__meta">{{createdAt}}</span>
         </p>
-        <p><a href="{{url}}" target="_blank">My current location</a></p>
+        <p class="message-content">
+          <a href="{{url}}" target="_blank">My current location</a>
+        </p>
+      </div>
+    </script>
+
+    <script id="sender-location-message-template" type="text/html">
+      <div class="sender-message">
+        <p class="sender-message-header">
+          <span></span>
+          <span class="message__name">{{username}}</span>
+          <span class="message__meta">{{createdAt}}</span>
+        </p>
+        <p class="sender-message-content">
+          <a href="{{url}}" target="_blank">My current location</a>
+        </p>
       </div>
     </script>
 
